@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: darkgray !important;
+}
+
+.cronometro{
+    font-size: 8em;
+	line-height: 100px;
+}
+.dados-atleta1{
+    border: 1px solid black;
+    height: 10%;
+}
+.dados-atleta2{
+    border: 1px solid black;
+    height: 10%;
+}
+
+.borda-1{
+    border: 1px solid black;
+}
+
+.temp-p{
+    color: black !important;
+    font-size: 0.5em !important;
+}
+
+.atleta{
+    display: flex !important;
+    align-items: center !important;
+    border-bottom: 1px solid dimgray;
+}
+
+.pontuacao-atleta1{
+    border-right: 0.5px solid black;
+}
+.pontuacao-atleta2{
+    border-left: 0.5px solid black;
+}
+
+.pts{
+    font-size: 16em;
+	line-height: 405px;
+    height: 100%;
+}
+
+.pts-p-v{
+    font-size: 3em;
+	line-height: 40px;
+}
